@@ -7,7 +7,7 @@ module.exports = {
     postcssNormalize({
       forceImport: 'sanitize.css'
     }),
-    // autoprefixer(),
+    autoprefixer(),
     postcssSVG({
       dirs : ["./src/images/icons"]
     }),
