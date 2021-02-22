@@ -1,0 +1,8 @@
+.catalog{
+  width: 100%;
+  margin-top: 90px;
+  @include tablets{
+    width: 95%;
+  }
+
+}
